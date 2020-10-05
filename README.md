@@ -17,11 +17,12 @@ For more information on how Phyre2 works: [Phyre2 Documentation](https://www.nat
 For more information on how SABLE works: [SABLE documentation](http://sable.cchmc.org/sable_doc.html).
 
 ## How to Use MutaGuide
+First, download this repository to your computer. If you download using a ZIP file, make sure you extract the files and rename the folder to <b>MutaGuide</b>
 Because the Phyre2 server takes extremely long to make predictions, the user must first enter their sequence and obtain a .txt file of the Phyre2 output, in the FASTA format, separately. This file can then be inputted into the MutaGuide program.
 #### Running in Windows
 Right now, to run the program in Windows, it is recommended to use the command prompt.
 1. In the search bar on your computer, search for 'Command Prompt', and open the program.
-2. Navigate to the directory where the code is saved: `cd C:/%USERPROFILE%/path/MutaGuide/`
+2. Navigate to the directory where the code is saved: `cd C:/%USERPROFILE%/path/MutaGuide/MainCode/`
 3. Run the `main.py` file: `python main.py`
 4. Enter the path to the Phyre2 file when prompted.
    - In the example shown here, the test file provided with the MutaGuide program in the MutaGuide folder is provided with a relative path. If the file is saved outside of this    folder, provide the full path to the file:
